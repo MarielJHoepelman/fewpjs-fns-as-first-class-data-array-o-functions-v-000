@@ -28,7 +28,7 @@ function exerciseDog(dogName, dogBreed) {
   const completeRoutine = [];
 
   for (let activity of routine) {
-    successMessages.push(activity(dogName, dogBreed));
+    completeRoutine.push(activity(dogName, dogBreed));
   }
 
   return completeRoutine;
