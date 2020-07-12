@@ -30,7 +30,7 @@ function exerciseDog(dogName, dogBreed) {
   //   successMessages.push(activity(dogName, dogBreed));
   // }
 
-  routine.map(function(activity) {
+  routine.forEach(function(activity) {
     console.log(activity)
   })
 
