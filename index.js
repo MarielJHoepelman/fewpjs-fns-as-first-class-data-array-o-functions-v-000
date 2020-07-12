@@ -26,11 +26,11 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 
 function exerciseDog(dogName, dogBreed) {
   const successMessages = [];
-  for (let activity of routine) {
-    successMessages.push(activity(dogName, dogBreed));
-  }
+  // for (let activity of routine) {
+  //   successMessages.push(activity(dogName, dogBreed));
+  // }
 
-  routine.each(function(activity) {
+  routine.map(function(activity) {
     console.log(activity)
   })
 
