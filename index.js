@@ -34,5 +34,5 @@ function exerciseDog(dogName, dogBreed) {
     return activity(dogName, dogBreed);
   })
 
-  return successMessages;
+  // return successMessages;
 }
