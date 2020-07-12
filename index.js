@@ -25,7 +25,7 @@ function unleashDog (dogName, dogBreed) {
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
 function exerciseDog (dogName, dogBreed) {
-  for (let index of routine) {
+  for (let activity of routine) {
     index(dogName, dogBreed)
   }
 }
