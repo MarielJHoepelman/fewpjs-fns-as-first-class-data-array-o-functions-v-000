@@ -7,5 +7,5 @@ function leashDog(dogName, dogBreed) {
 }
 
 funtion walkToPark(dogName, dogBreed) {
-
+  return `Walk to the park with ${dogName} the ${dogBreed}`
 }
