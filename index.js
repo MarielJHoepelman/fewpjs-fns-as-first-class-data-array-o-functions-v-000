@@ -6,6 +6,6 @@ function leashDog(dogName, dogBreed) {
   return `Leash ${dogName} the ${dogBreed}`;
 }
 
-funtion walkToPark(dogName, dogBreed) {
+function walkToPark(dogName, dogBreed) {
   return `Walk to the park with ${dogName} the ${dogBreed}`;
 }
