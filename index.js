@@ -25,14 +25,14 @@ function unleashDog(dogName, dogBreed) {
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
 function exerciseDog(dogName, dogBreed) {
-  // const successMessages = [];
+  const successMessages = [];
   // for (let activity of routine) {
   //   successMessages.push(activity(dogName, dogBreed));
   // }
 
-  return routine.map(function(activity) {
+  successMessages =  routine.map(function(activity) {
     return activity(dogName, dogBreed);
   })
 
-  // return successMessages;
+  return successMessages;
 }
