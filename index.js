@@ -7,5 +7,5 @@ function leashDog(dogName, dogBreed) {
 }
 
 funtion walkToPark(dogName, dogBreed) {
-  
+
 }
