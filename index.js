@@ -31,6 +31,7 @@ function exerciseDog(dogName, dogBreed) {
   // }
 
   for(let i = 0; i <= routine.length; i++ ) {
+    console.log(routine)
     successMessages.push(routine[i](dogName, dogBreed));
   }
 
