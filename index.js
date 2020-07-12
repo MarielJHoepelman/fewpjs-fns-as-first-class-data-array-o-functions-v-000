@@ -22,7 +22,7 @@ function unleashDog (dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`;
 }
 
-let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
 function exerciseDog (dogName, dogBreed) {
   for (let index in routine) {
