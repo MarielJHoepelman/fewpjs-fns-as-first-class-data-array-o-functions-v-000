@@ -30,8 +30,8 @@ function exerciseDog(dogName, dogBreed) {
   //   successMessages.push(activity(dogName, dogBreed));
   // }
 
-  routine.forEach(function(activity) {
-    successMessages.push(activity(dogName, dogBreed));
+  return routine.map(function(activity) {
+    return activity(dogName, dogBreed);
   })
 
   return successMessages;
