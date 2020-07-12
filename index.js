@@ -26,9 +26,8 @@ function unleashDog(dogName, dogBreed) {
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
 function exerciseDog(dogName, dogBreed) {
-  console.log(routine)
+  const successMessages = []
   for (let activity of routine) {
-    // console.log(activity)
-    activity(dogName, dogBreed)
+    successMessages.push(activity(dogName, dogBreed)) 
   }
 }
