@@ -5,3 +5,7 @@ function wakeDog(dogName,dogBreed) {
 function leashDog(dogName, dogBreed) {
   return `Leash ${dogName} the ${dogBreed}`;
 }
+
+funtion walkToPark(dogName, dogBreed) {
+  
+}
