@@ -14,17 +14,17 @@ function throwFrisbee(dogName, dogBreed) {
   return `Throw the frisbee for ${dogName} the ${dogBreed}`;
 }
 
-function walkHome (dogName, dogBreed) {
+function walkHome(dogName, dogBreed) {
   return `Walk home with ${dogName} the ${dogBreed}`;
 }
 
-function unleashDog (dogName, dogBreed) {
+function unleashDog(dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`;
 }
 
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
-function exerciseDog (dogName, dogBreed) {
+function exerciseDog(dogName, dogBreed) {
   for (let activity of routine) {
     activity(dogName, dogBreed)
   }
