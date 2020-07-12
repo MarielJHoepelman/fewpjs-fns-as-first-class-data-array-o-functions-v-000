@@ -1,4 +1,4 @@
-function wakeDog(dogName,dogBreed) {
+var wakeDog =  function(dogName,dogBreed) {
   return `Wake ${dogName} the ${dogBreed}`;
 }
 
@@ -22,4 +22,4 @@ function unleashDog (dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`;
 }
 
-let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog ]
+let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
