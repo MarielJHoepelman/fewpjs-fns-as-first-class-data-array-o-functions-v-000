@@ -26,6 +26,7 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 
 function exerciseDog(dogName, dogBreed) {
   for (activity of routine) {
+    console.log(activity)
     activity(dogName, dogBreed)
   }
 }
