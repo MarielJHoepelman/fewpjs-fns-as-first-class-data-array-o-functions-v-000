@@ -31,7 +31,7 @@ function exerciseDog(dogName, dogBreed) {
   // }
 
   routine.forEach(function(activity) {
-    console.log(activity)
+    successMessages.push(activity(dogName, dogBreed));
   })
 
   return successMessages;
