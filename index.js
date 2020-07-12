@@ -26,6 +26,6 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 
 function exerciseDog (dogName, dogBreed) {
   for (let activity of routine) {
-    index(dogName, dogBreed)
+    activity(dogName, dogBreed)
   }
 }
